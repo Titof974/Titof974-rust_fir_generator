@@ -52,7 +52,7 @@ pub fn sapin_2(_max: usize) {
 ```
 # Benchmark 
 
-```
+```Rust
 #![feature(duration_as_u128)]
 use std::time::{Instant};
 
