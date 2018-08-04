@@ -91,3 +91,48 @@ pub fn sapin_2(_max: usize) -> u128 {
     return now.elapsed().as_nanos();
 }
 ```
+
+Data :
+```
+|| Threshold : 10
+Sapin_1 | Time : 72213 ns
+Sapin_2 | Time : 56561 ns
+|| Threshold : 20
+Sapin_1 | Time : 224839 ns
+Sapin_2 | Time : 181193 ns
+|| Threshold : 30
+Sapin_1 | Time : 449771 ns
+Sapin_2 | Time : 366908 ns
+|| Threshold : 40
+Sapin_1 | Time : 749020 ns
+Sapin_2 | Time : 620081 ns
+|| Threshold : 50
+Sapin_1 | Time : 1116662 ns
+Sapin_2 | Time : 933856 ns
+|| Threshold : 60
+Sapin_1 | Time : 1540665 ns
+Sapin_2 | Time : 1298244 ns
+|| Threshold : 70
+Sapin_1 | Time : 2098988 ns
+Sapin_2 | Time : 1778538 ns
+|| Threshold : 80
+Sapin_1 | Time : 2618192 ns
+Sapin_2 | Time : 2226316 ns
+|| Threshold : 90
+Sapin_1 | Time : 3250559 ns
+Sapin_2 | Time : 2782752 ns
+|| Threshold : 100
+Sapin_1 | Time : 3953790 ns
+Sapin_2 | Time : 3398007 ns
+|| Threshold : 110
+Sapin_1 | Time : 4724005 ns
+Sapin_2 | Time : 4070842 ns
+|| Threshold : 120
+Sapin_1 | Time : 5558890 ns
+Sapin_2 | Time : 4812837 ns
+|| Threshold : 130
+Sapin_1 | Time : 7380773 ns
+Sapin_2 | Time : 6297425 ns
+```
+
+![Screenshot](benchmark.png)
